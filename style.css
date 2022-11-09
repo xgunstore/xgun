@@ -12,7 +12,7 @@
     padding-left: 50px;
 }
 
-li {
+.li1 {
     padding-right: 20px;
 }
 
@@ -23,12 +23,94 @@ li {
     margin-right: 30px;
 }
 
-.nav-item {
-    padding-left: 50px
-}
-
 .nav-item1 {
-	width: 300px;
+	width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.container p-4 {
+	background-color: white;
+}
+
+ a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+hr {
+	padding-bottom: 5px;
+	height:2px;
+	color: white;
+}
+
+.carousel-item {
+	padding-bottom:50px;
+}
+
+.products {
+		font-weight:200;
+	letter-spacing: 1px;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 6px;
+}
+
+.products2 {
+	font-weight:200;
+	letter-spacing: 1px;
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 75px;
+	color: gray;
+}
+
+.text-dark {
+	font-size: 14px;
+	color: gray;
+}
+
+
+.text-uppercase {
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+  .nav{
+	padding: 0;
+	list-style: none;
+	background: #f2f2f2;
+}
+.nav li{
+	display: inline-block;
+	position: relative;
+	line-height: 21px;
+	text-align: left;
+}
+.nav li a{
+	display: block;
+	padding: 8px 25px;
+	color: #333;
+	text-decoration: none;
+}
+.nav li a:hover{
+	color: #fff;
+	background: #939393;
+}
+.nav li ul.dropdown{
+	min-width: 100%; /* Set width of the dropdown */
+	background: #f2f2f2;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+}
+.nav li:hover ul.dropdown{
+	display: block;	/* Display the dropdown */
+}
+.nav li ul.dropdown li{
+	display: block;
 }
