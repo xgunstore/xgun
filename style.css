@@ -1,5 +1,5 @@
 .container-fluid {
-    height: 140px;
+    height: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,6 +10,8 @@
 
 .navbar-brand {
     padding-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .li1 {
@@ -22,7 +24,6 @@
     color: white;
     margin-right: 30px;
 }
-
 .nav-item1 {
 	width: 200px;
     padding-top: 10px;
@@ -83,6 +84,8 @@ hr {
 	padding: 0;
 	list-style: none;
 	background: #f2f2f2;
+	margin-left: auto;
+	margin-right: auto;
 }
 .nav li{
 	display: inline-block;
@@ -114,3 +117,12 @@ hr {
 .nav li ul.dropdown li{
 	display: block;
 }
+#main {
+    min-height: 500px;
+}
+#szablon {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+

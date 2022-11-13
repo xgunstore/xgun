@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
           <title>Logowanie</title>
           <link rel="stylesheet" href="style.css">
-          <link rel="stylesheet" href="login.css">
+          <link rel="stylesheet" href="register.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet"> 
@@ -84,18 +84,19 @@
           <div id="main">
             <div class="login-page">
               <div class="form">
-                <form class="register-form">
-                  <input type="text" placeholder="name"/>
-                  <input type="password" placeholder="password"/>
-                  <input type="text" placeholder="email address"/>
-                  <button>create</button>
-                  <p class="message">Already registered? <a href="#">Sign In</a></p>
-                </form>
                 <form class="login-form">
+                  <input type="text" placeholder="Imię"/>
+                  <input type="text" placeholder="Nazwisko"/>
+                  <input type="password" placeholder="Hasło"/>
+                  <input type="text" placeholder="Adres E-Mail"/>
+                  <button>Stwórz konto</button>
+                  <p class="message">Już zarejestrowany? <a href="login.html">Zaloguj się</a></p>
+                </form>
+                <form class="register-form" method="post" action="#">
                   <input type="text" placeholder="nazwa użykownika"/>
                   <input type="password" placeholder="hasło"/>
-                  <button>ZALOGUJ</button>
-                  <p class="message">Zarejestruj się? <a href="register.html">Utwórz konto</a></p>
+                  <button type="button"></button>
+                  <p class="message">Zarejestruj się? <a href="#">Utwórz konto</a></p>
                 </form>
               </div>
             </div>
