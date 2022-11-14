@@ -125,4 +125,8 @@ hr {
 	margin-right: auto;
 	width: 100%;
 }
+.d-flex {
+    padding-left: 10% !important;
+    padding-right: 25% !important;
+  }
 
